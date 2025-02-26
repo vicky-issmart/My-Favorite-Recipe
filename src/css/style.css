@@ -9,3 +9,223 @@
 		color: red;
 	}
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Questrial&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFF5F2;
+}
+
+a {
+	text-decoration: none;
+}
+
+a :hover {
+	text-decoration: underline;
+}
+
+.navigation-bar {
+	width: 100vw;
+	max-width: 100%;
+	height: 60px;
+	background-color: #ED7263;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 15px 20px;
+
+}
+
+.navigation-menu {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+	flex-grow: 1;
+	padding: 0;
+	margin: 0;
+}
+
+.nav-item a { 
+	color: #FFF5F2;
+	font-family: Questrial;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.nav-item a:hover {
+	text-decoration: underline;
+}
+
+.logo img {
+	height: 60px;
+}
+
+.search {
+	background: url(../images/MagnifyingGlass.svg);
+	width: 40px;
+	height: 40px;
+}
+
+
+.h2-type {
+	color: #1E1E1E;
+	font-size: 36px;
+	font-weight: 600;
+	font-family: "Bricolage Grotesque";
+}
+
+.cover-page {
+	background-color: #FFF5F2;
+	display: grid;
+	grid-template-columns: repeat(25, 50px);
+	grid-template-rows: repeat(18, 50px);
+}
+	
+.cover-page-headline {
+	grid-column: 15 / span 8;
+	grid-row: 1;
+	color: #1E1E1E;
+	font-size: 80px;
+	font-family: "Bricolage Grotesque";
+	font-weight: 700;
+	line-height: normal;
+	margin-top: 0;
+	padding-top: 30px;
+}
+
+.cover-page-image {
+	width: 530px;
+	height: 740px;
+	background: url(../images/Fruit-tart-2019-feature.jpg) lightgray 0px -4.528px / 100% 101.216% no-repeat;
+	grid-column-start: 3;
+	grid-row-start: 2;
+}
+
+.metadata {
+	color: #E5513F;
+	font-family: Questrial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 0.5;
+	letter-spacing: 1px;
+	grid-column: 15 / span 10;
+	grid-row: 3 / span 1;
+	margin-top: 0;
+	padding-top: 10px;
+}
+
+.metadata2 {
+	color: #FBB39B;
+}
+
+.cover-page-introduction {
+	color: #1E1E1E;
+	font-family: Questrial;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.4;
+	grid-column: 15 / span 10;
+	grid-row: 4;
+}
+
+.subscription-frame {
+	border: 2px solid #FBB39B;
+	grid-column: 15 / span 10;
+	grid-row: 10 / span 5;
+}
+
+.mail-subscription-title {
+	text-align: center;
+	grid-column: 15 / span 10;
+	grid-row: 11;
+	margin-top: 0;
+}
+
+.mail-subscription-text {
+	text-align: center;
+	grid-column: 15 / span 10;
+	grid-row: 12;
+	margin-top: 0;
+	font-family: Questrial;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.3;
+}
+
+.mail-subscription-input {
+	grid-column: 15 / span 10;
+	grid-row: 13;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0;
+}
+
+.mail-inputbox {
+	width: 350px;
+	height: 40px;
+	border: 1px solid #ED7263;
+}
+
+.mail-inputbox::placeholder {
+	color: #FBB39B;
+	font-family: Questrial;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.mail-submit {
+	width: 40px;
+	height: 40px;
+	padding: 2px 5px;
+	background-color: #ED7263;
+	border: none;
+	color: #FFFFFF;
+	font-family: Questrial;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.mail-submit:hover {
+	background-color: #FBB39B;
+}
+
+.send-recipes {
+	grid-column: 15 / span 10;
+	grid-row: 14;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0;
+	padding: 10px;
+}
+.send-recipes-checkbox {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #ED7263;
+	background-color: #FFFFFF;
+	grid-column-start: 16;
+	grid-row-start:14;
+	margin: 0 0 0 25px;
+
+}
+
+.send-recipes-text {
+	text-align: center;
+	grid-column: 15 / span 10;
+	grid-row-start: 14;
+	margin-top: 0;
+	font-family: Questrial;
+	font-size: 16px;
+	font-weight: 400;
+	padding-top: 2px;
+}
