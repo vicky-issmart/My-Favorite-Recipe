@@ -1,6 +1,6 @@
-# Your Favorite Recipe
+# My Favorite Recipe - Fruit Tart
 
-In this assignment, you'll be redesigning a recipe from a food blog using HTML and CSS for your favorite recipe
+This is the redesign for Preppy Kitchen's blog for <a href="https://vicky-issmart.github.io/My-Favorite-Recipe/">Fruit Tart<\a>. using HTML and CSS for your favorite recipe
 to improve the user experience. See Blackboard for full details.
 
 In part 1, your focus will be on writing valid, semantic HTML for the content of your recipe. In part 2, you 
