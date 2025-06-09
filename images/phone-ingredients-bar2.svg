@@ -1,0 +1,32 @@
+<svg width="15" height="111" viewBox="0 0 15 111" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="15" height="111" fill="#1E1E1E"/>
+<g id="iPhone SE - 1" clip-path="url(#clip0_1_59)">
+<rect width="320" height="6295" transform="translate(-290 -4143)" fill="#FFF5F2"/>
+<g id="Rectangle 17" filter="url(#filter0_d_1_59)">
+<rect x="-290" y="-223" width="320" height="637" rx="23" fill="#FFF5F2"/>
+</g>
+<g id="Recipe ingredients and instructions">
+</g>
+<g id="Group 36">
+<rect id="Rectangle 15" width="15" height="111" rx="7.5" fill="#E5513F"/>
+<ellipse id="Ellipse 14" cx="7.5" cy="7.49158" rx="4.5" ry="4.495" fill="#FFF5F2"/>
+<ellipse id="Ellipse 15" cx="7.5" cy="103.495" rx="4.5" ry="4.495" fill="#FFF5F2"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_1_59" x="-316" y="-251" width="372" height="689" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="2" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_1_59"/>
+<feOffset dy="-2"/>
+<feGaussianBlur stdDeviation="12"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_59"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_59" result="shape"/>
+</filter>
+<clipPath id="clip0_1_59">
+<rect width="320" height="6295" fill="white" transform="translate(-290 -4143)"/>
+</clipPath>
+</defs>
+</svg>
